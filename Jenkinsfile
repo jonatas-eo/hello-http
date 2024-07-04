@@ -6,7 +6,7 @@ node{
     }
 
     stage('Build image') {
-        app = docker.build("jonatas/hello-http")
+        app = docker.build("jonataseo/hello-http")
     }
 
     stage('Test image') {
